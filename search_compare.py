@@ -77,7 +77,7 @@ def main():
     for n in SIZES:
         times_seq, times_ord, times_bin_it, times_bin_rec = [], [], [], []
         for _ in range(TRIALS):
-            1st = _random_list(n)
+            lst = _random_list(n)
             _, t = sequential_search(1st, TARGET)
             times_seq.append(t)
 
