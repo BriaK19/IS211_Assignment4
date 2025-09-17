@@ -78,10 +78,10 @@ def main():
         times_seq, times_ord, times_bin_it, times_bin_rec = [], [], [], []
         for _ in range(TRIALS):
             lst = _random_list(n)
-            _, t = sequential_search(1st, TARGET)
+            _, t = sequential_search(lst, TARGET)
             times_seq.append(t)
 
-            sorted_1st = sorted(1st)
+            sorted_1st = sorted(lst)
             _, t = ordered_sequential_search(sorted_1st, TARGET)
             times_ord.append(t)
             _, t = binary_search_iterative(sorted_1st, TARGET)
