@@ -51,11 +51,11 @@ def main():
         times_ins, times_shell, times_py = [], [], []
         for _ in range(TRIALS):
             lst = _random_list(n)
-            _, t = insertion_sort(1st)
+            _, t = insertion_sort(lst)
             times_ins.append(t)
-            _, t = shell_sort(1st)
+            _, t = shell_sort(lst)
             times_shell.append(t)
-            _, t = python_sort(1st)
+            _, t = python_sort(lst)
             times_py.append(t)
 
     print(f"List size {n}")
