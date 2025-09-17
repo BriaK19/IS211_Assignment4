@@ -1,15 +1,12 @@
 # IS211 – Assignment 4: Algorithm Benchmarking
-__
 
 This repo contains my solutions for **Week 4 Assignment** in IS211.
-__
 
 Files
 - `search_compare.py` – compares **Sequential Search**, **Ordered Sequential Search**, **Binary Search (Iterative)**, and **Binary Search (Recursive)** in a *worst-case* scenario.
 - `sort_compare.py` – compares **Insertion Sort**, **Shell Sort**, and Python’s built-in **Timsort** in an *average-case* scenario.
 - `search_results.txt` – saved output from running `search_compare.py`.
 - `sort_results.txt` – saved output from running `sort_compare.py`.
-__
 
 How to Run
 Clone the repo and run each script with Python 3:
