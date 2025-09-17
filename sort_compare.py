@@ -3,7 +3,7 @@ import time
 
 def insertion_sort(a_list):
     work = list(a_list)
-    start - time.perf_counter()
+    start = time.perf_counter()
     for index in range(1, len(work)):
         current_value = work[index]
         position = index
