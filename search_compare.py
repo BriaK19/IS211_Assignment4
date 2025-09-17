@@ -13,11 +13,12 @@ def sequential_search(a_list, item):
   elapsed = time.perf_counter() - start
   return found, elapsed
 
-def ordered_sequential_search(a_list, itme):
+def ordered_sequential_search(a_list, item):
   start = time.perf_counter()
   pos = 0
   found = False
   stop = False
+  
   while pos < len(a_list) and not found and not stop:
     if a_list[pos] == item:
       found = True
@@ -26,6 +27,7 @@ def ordered_sequential_search(a_list, itme):
             stop = True
         else:
             pos += 1
+          
   elapsed = time.perf_counter() - start
   return found, elapsed
 
