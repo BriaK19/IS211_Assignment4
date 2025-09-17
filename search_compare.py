@@ -31,7 +31,7 @@ def ordered_sequential_search(a_list, item):
   elapsed = time.perf_counter() - start
   return found, elapsed
 
-def binary_search_interative(a_list, item):
+def binary_search_iterative(a_list, item):
   start = time.perf_counter()
   first = 0
   last = len(a_list) - 1
