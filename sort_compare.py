@@ -50,7 +50,7 @@ def main():
     for n in SIZES:
         times_ins, times_shell, times_py = [], [], []
         for _ in range(TRIALS):
-            1st = _random_list(n)
+            lst = _random_list(n)
             _, t = insertion_sort(1st)
             times_ins.append(t)
             _, t = shell_sort(1st)
