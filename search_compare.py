@@ -1,4 +1,4 @@
-import randon
+import random
 import time
 
 def sequential_search(a_list, item):
